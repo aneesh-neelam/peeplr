@@ -21,8 +21,10 @@ dependencies {
 
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: springBootVersion
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: springBootVersion
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: springBootVersion
     implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: log4jVersion
     implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: log4jVersion
+    implementation group: 'net.logstash.logback', name: 'logstash-logback-encoder', version: logbackVersion
     testImplementation group: 'org.junit.jupiter', name:'junit-jupiter-api', version: junitVersion
     testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: springBootVersion
     testRuntimeOnly group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version : junitVersion
