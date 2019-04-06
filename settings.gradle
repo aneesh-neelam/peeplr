@@ -1,0 +1,5 @@
+rootProject.name = 'peeplr-host'
+
+include 'peeplr-graph-model'
+include 'peeplr-graph-services'
+include 'peeplr-service-host'

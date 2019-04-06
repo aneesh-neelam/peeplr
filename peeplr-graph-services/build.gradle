@@ -1,0 +1,15 @@
+dependencies {
+    implementation project(':peeplr-graph-model')
+
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: log4jVersion
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: log4jVersion
+    implementation group: 'com.orientechnologies', name: 'orientdb-client', version: orientDbVersion
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: apacheCommonsLangVersion
+    implementation group: 'org.apache.commons', name: 'commons-collections4', version: apacheCommonsCollectionsVersion
+    implementation group: 'org.apache.commons', name: 'commons-math3', version: apacheCommonsMathVersion
+    implementation group: 'com.google.code.gson', name: 'gson', version: gsonVersion
+    implementation group: 'com.google.guava', name: 'guava', version: guavaVersion
+    implementation group: 'com.google.inject', name: 'guice', version: guiceVersion
+    testImplementation group: 'org.junit.jupiter', name:'junit-jupiter-api', version: junitVersion
+    testRuntimeOnly group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version : junitVersion
+}
